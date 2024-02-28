@@ -1,0 +1,2 @@
+/subscriptions/997a66bc-d829-48b2-97c4-c4d452af4b38/resourceGroups/pradeeprgremote/providers/Microsoft.Network/publicIPAddresses/tfremote-publicip-5 
+/subscriptions/997a66bc-d829-48b2-97c4-c4d452af4b38/resourceGroups/pradeeprglocal/providers/Microsoft.Network/publicIPAddresses/tflocal-publicip-5 
