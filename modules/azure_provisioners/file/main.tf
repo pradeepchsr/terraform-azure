@@ -1,13 +1,3 @@
-terraform {
-  required_providers {
-    azurerm = {
-      source  = "hashicorp/azurerm"
-      version = "3.93.0"
-    }
-  }
-}
-
-
 
 resource "azurerm_resource_group" "pradeep-rg" {
   name     = var.rgname
