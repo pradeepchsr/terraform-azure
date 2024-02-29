@@ -7,12 +7,17 @@ terraform {
   }
 }
 
+terraform {
+  backend "azurerm" {
+    storage_account_name = "<storage_account_name>"
+    container_name       = "<container_name>"
+    key                  = "terraform.tfstate"
+    access_key           = "<storage_account_access_key>"
+  }
+}
+
 provider "azurerm" {
   features {}
-    subscription_id = "997a66bc-d829-48b2-97c4-c4d452af4b38"
-    client_id       = "07e80811-7b2d-42b9-972e-0a3833d2bc64"
-    client_secret   = "DcG8Q~YkhXK7df2Hgqf6o-kfsHfCq4vTt~NTNaJf"
-    tenant_id       = "07fa4e09-f0f4-45f1-899b-a21ebc61aede"
 }
 
 
